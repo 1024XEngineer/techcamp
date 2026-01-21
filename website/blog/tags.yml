@@ -1,0 +1,34 @@
+公告:
+  label: 公告
+  permalink: /announcement
+  description: 实训营公告和新闻
+
+AI:
+  label: AI
+  permalink: /ai
+  description: AI 相关技术分享
+
+Go:
+  label: Go
+  permalink: /go
+  description: Go 语言和相关技术
+
+编译器:
+  label: 编译器
+  permalink: /compiler
+  description: 编译器技术和实现
+
+工程实践:
+  label: 工程实践
+  permalink: /engineering
+  description: 软件工程实践和经验分享
+
+架构设计:
+  label: 架构设计
+  permalink: /architecture
+  description: 架构设计思想和实践
+
+techcamp:
+  label: TechCamp
+  permalink: /techcamp
+  description: 1024 实训营相关内容

@@ -1,0 +1,8 @@
+techcamp:
+  name: 1024 TechCamp
+  title: 七牛云 1024 实训营
+  url: https://github.com/qiniu/techcamp
+  image_url: https://github.com/qiniu.png
+  page: true
+  socials:
+    github: qiniu
