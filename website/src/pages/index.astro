@@ -1,0 +1,237 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="首页">
+  <div class="hero">
+    <div class="container">
+      <h1>🚀 1024 TechCamp</h1>
+      <p class="subtitle">携手成长，成就优秀工程师</p>
+      <p class="description">
+        1024 实训营，由七牛云发起，致力于打造一个开放、实践、创新的工程师成长平台。
+        以开源精神为基石，以工程实践为路径，以架构思维为指引，在真实项目中锤炼工程师的工匠精神。
+      </p>
+      <div class="cta-buttons">
+        <a href="/techcamp/blog" class="btn btn-primary">浏览博客</a>
+        <a href="https://github.com/qiniu/techcamp" target="_blank" class="btn btn-secondary">GitHub 仓库</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="features">
+    <div class="container">
+      <h2>项目特色</h2>
+      <div class="feature-grid">
+        <div class="feature-card">
+          <h3>📖 开源公开</h3>
+          <p>过程公开，结果开源，倒逼高质量产出，让优秀者容易被看见</p>
+        </div>
+        <div class="feature-card">
+          <h3>🤖 AI Native</h3>
+          <p>倡导 Build/Think/Code With AI，让 AI 成为你最强大的伙伴</p>
+        </div>
+        <div class="feature-card">
+          <h3>🎯 技术纵深</h3>
+          <p>挑战编程语言、编译器等高技术门槛项目，技术纵深足够</p>
+        </div>
+        <div class="feature-card">
+          <h3>👨‍🏫 资深带教</h3>
+          <p>资深专家全程陪跑，代码逐行审阅，架构反复推敲</p>
+        </div>
+        <div class="feature-card">
+          <h3>🔄 全流程参与</h3>
+          <p>从定方位到架构设计再到开发实现，体验完整的产品和架构思维</p>
+        </div>
+        <div class="feature-card">
+          <h3>👥 小团队共创</h3>
+          <p>3-5 人小组协作，激发潜能，培养团队协作和领导力</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="content-section">
+    <div class="container">
+      <h2>最新内容</h2>
+      <p class="section-description">探索我们的技术分享、工程实践和训练营资料</p>
+      <div class="content-categories">
+        <a href="/techcamp/blog" class="category-card">
+          <h3>📝 技术博客</h3>
+          <p>工程实践、架构设计、AI 开发等深度技术分享</p>
+        </a>
+        <a href="https://github.com/qiniu/techcamp/tree/main/4th" target="_blank" class="category-card">
+          <h3>🎓 训练营课题</h3>
+          <p>实训课题、公开课视频、导师分享</p>
+        </a>
+        <a href="https://github.com/qiniu/techcamp" target="_blank" class="category-card">
+          <h3>📚 学习资料</h3>
+          <p>规范文档、课程指导、学习资源</p>
+        </a>
+      </div>
+    </div>
+  </div>
+</BaseLayout>
+
+<style>
+  .hero {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 4rem 0 5rem;
+    text-align: center;
+  }
+
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: white;
+  }
+
+  .subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    opacity: 0.95;
+  }
+
+  .description {
+    font-size: 1.1rem;
+    max-width: 800px;
+    margin: 0 auto 2rem;
+    line-height: 1.8;
+    opacity: 0.9;
+  }
+
+  .cta-buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .btn {
+    padding: 0.75rem 2rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s;
+    display: inline-block;
+  }
+
+  .btn-primary {
+    background: white;
+    color: #667eea;
+  }
+
+  .btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+
+  .btn-secondary {
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    border: 2px solid white;
+  }
+
+  .btn-secondary:hover {
+    background: rgba(255, 255, 255, 0.3);
+    transform: translateY(-2px);
+  }
+
+  .features {
+    padding: 4rem 0;
+    background: var(--color-bg);
+  }
+
+  .features h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+  }
+
+  .feature-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+  }
+
+  .feature-card {
+    padding: 2rem;
+    border: 1px solid var(--color-border);
+    border-radius: 0.5rem;
+    transition: all 0.3s;
+  }
+
+  .feature-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-color: var(--color-primary);
+  }
+
+  .feature-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .content-section {
+    padding: 4rem 0;
+    background: var(--color-bg);
+  }
+
+  .content-section h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .section-description {
+    text-align: center;
+    color: var(--color-text-muted);
+    margin-bottom: 3rem;
+  }
+
+  .content-categories {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+  }
+
+  .category-card {
+    padding: 2rem;
+    border: 1px solid var(--color-border);
+    border-radius: 0.5rem;
+    text-decoration: none;
+    color: var(--color-text);
+    transition: all 0.3s;
+    display: block;
+  }
+
+  .category-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-color: var(--color-primary);
+  }
+
+  .category-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: var(--color-heading);
+  }
+
+  .category-card p {
+    color: var(--color-text-muted);
+  }
+
+  @media (max-width: 768px) {
+    .hero h1 {
+      font-size: 2rem;
+    }
+
+    .subtitle {
+      font-size: 1.2rem;
+    }
+
+    .description {
+      font-size: 1rem;
+    }
+  }
+</style>
