@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkwebsite=globalThis.webpackChunkwebsite||[]).push([[410],{8511:e=>{e.exports=JSON.parse('{"metadata":{"permalink":"/techcamp/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"1024 \u5b9e\u8bad\u8425\u6280\u672f\u5206\u4eab\u4e0e\u5b9e\u8df5\u7ecf\u9a8c","blogTitle":"\u6280\u672f\u535a\u5ba2"}}')}}]);

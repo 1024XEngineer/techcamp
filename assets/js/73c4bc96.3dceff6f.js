@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkwebsite=globalThis.webpackChunkwebsite||[]).push([[260],{9219:e=>{e.exports=JSON.parse('{"tags":[{"label":"\u516c\u544a","permalink":"/techcamp/blog/tags/announcement","description":"\u5b9e\u8bad\u8425\u516c\u544a\u4e0e\u901a\u77e5","count":1}]}')}}]);

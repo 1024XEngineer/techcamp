@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="rss.xsl"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>1024 TechCamp Blog</title>
+        <link>https://qiniu.github.io/techcamp/blog</link>
+        <description>1024 TechCamp Blog</description>
+        <lastBuildDate>Wed, 01 Jan 2025 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>zh-Hans</language>
+        <item>
+            <title><![CDATA[欢迎来到 1024 TechCamp 官方网站]]></title>
+            <link>https://qiniu.github.io/techcamp/blog/welcome-techcamp-website</link>
+            <guid>https://qiniu.github.io/techcamp/blog/welcome-techcamp-website</guid>
+            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[🎉 欢迎来到全新的 1024 TechCamp 官方网站！]]></description>
+            <content:encoded><![CDATA[<p>🎉 欢迎来到全新的 1024 TechCamp 官方网站！</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="关于本站">关于本站<a href="https://qiniu.github.io/techcamp/blog/welcome-techcamp-website#%E5%85%B3%E4%BA%8E%E6%9C%AC%E7%AB%99" class="hash-link" aria-label="关于本站的直接链接" title="关于本站的直接链接" translate="no">​</a></h2>
+<p>1024 实训营官方网站正式上线！在这里，你可以：</p>
+<ul>
+<li class="">📖 阅读导师和学员的技术分享文章</li>
+<li class="">🎓 了解实训营的课程和项目</li>
+<li class="">💡 查看往期的技术讲座和工作坊</li>
+<li class="">🤝 参与开源社区的讨论和贡献</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="我们的愿景">我们的愿景<a href="https://qiniu.github.io/techcamp/blog/welcome-techcamp-website#%E6%88%91%E4%BB%AC%E7%9A%84%E6%84%BF%E6%99%AF" class="hash-link" aria-label="我们的愿景的直接链接" title="我们的愿景的直接链接" translate="no">​</a></h2>
+<p>我们致力于打造一个开放、实践、创新的工程师成长平台。通过：</p>
+<ul>
+<li class=""><strong>开源公开</strong>：过程公开，结果开源，倒逼高质量产出</li>
+<li class=""><strong>AI Native</strong>：拥抱 AI 时代，让 AI 成为最强大的伙伴</li>
+<li class=""><strong>资深带教</strong>：资深专家全程陪跑，坚持高工程标准</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="精彩内容预告">精彩内容预告<a href="https://qiniu.github.io/techcamp/blog/welcome-techcamp-website#%E7%B2%BE%E5%BD%A9%E5%86%85%E5%AE%B9%E9%A2%84%E5%91%8A" class="hash-link" aria-label="精彩内容预告的直接链接" title="精彩内容预告的直接链接" translate="no">​</a></h2>
+<p>即将发布的内容包括：</p>
+<ul>
+<li class="">编译器技术深度解析</li>
+<li class="">AI 辅助开发实践经验</li>
+<li class="">工程实践与架构设计分享</li>
+<li class="">学员项目复盘与心得</li>
+</ul>
+<p>敬请期待！🚀</p>]]></content:encoded>
+            <category>公告</category>
+        </item>
+    </channel>
+</rss>
