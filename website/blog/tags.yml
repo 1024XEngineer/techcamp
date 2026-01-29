@@ -27,3 +27,23 @@ architecture:
   label: 架构设计
   permalink: /architecture
   description: 架构设计与系统设计
+
+xgo:
+  label: XGo
+  permalink: /xgo
+  description: XGo 编程语言
+
+llgo:
+  label: LLGo
+  permalink: /llgo
+  description: LLGo 编译器
+
+python:
+  label: Python
+  permalink: /python
+  description: Python 相关技术
+
+career:
+  label: 职业发展
+  permalink: /career
+  description: 工程师职业发展与成长
