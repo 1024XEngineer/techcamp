@@ -47,3 +47,8 @@ career:
   label: 职业发展
   permalink: /career
   description: 工程师职业发展与成长
+
+podcast:
+  label: 🎙️ 播客
+  permalink: /podcast
+  description: 播客节目与访谈

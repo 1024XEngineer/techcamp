@@ -1,5 +1,5 @@
 ---
-slug: llgo-python-bianyiyuyunxingshijiaru
+slug: llgo-python-compilation-runtime-integration
 title: "LLGo 中 Python 编译与运行时集成"
 authors: [techcamp]
 tags: [compiler, llgo, python, engineering]

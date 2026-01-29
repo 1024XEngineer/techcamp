@@ -1,5 +1,5 @@
 ---
-slug: llpyg-llgo-快速集成-python-生态的桥梁
+slug: llpyg-llgo-fast-integration-python-ecosystem-bridge
 title: "llpyg: LLGo 快速集成 Python 生态的桥梁"
 authors: [techcamp]
 tags: [ai, career, compiler, engineering, go, llgo, python]

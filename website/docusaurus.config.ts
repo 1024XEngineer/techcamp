@@ -49,10 +49,14 @@ const config: Config = {
           feedOptions: {
             type: ['rss', 'atom'],
             xslt: true,
+            title: '1024 TechCamp 博客与播客',
+            description: '1024 实训营技术分享、实践经验与播客节目',
+            copyright: `Copyright © ${new Date().getFullYear()} Qiniu Cloud`,
+            language: 'zh-Hans',
           },
           editUrl: 'https://github.com/qiniu/techcamp/edit/main/website/',
-          blogTitle: '技术博客',
-          blogDescription: '1024 实训营技术分享与实践经验',
+          blogTitle: '技术博客与播客',
+          blogDescription: '1024 实训营技术分享、实践经验与播客节目',
           postsPerPage: 10,
           blogSidebarTitle: '最新文章',
           blogSidebarCount: 10,
@@ -87,6 +91,7 @@ const config: Config = {
           label: '实训营',
         },
         {to: '/blog', label: '技术博客', position: 'left'},
+        {to: '/docs/podcast', label: '🎙️ 播客', position: 'left'},
         {
           href: 'https://github.com/qiniu/techcamp',
           label: 'GitHub',
@@ -107,6 +112,10 @@ const config: Config = {
             {
               label: '参与贡献',
               to: '/docs/contributing',
+            },
+            {
+              label: '播客',
+              to: '/docs/podcast',
             },
           ],
         },

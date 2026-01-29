@@ -1,5 +1,5 @@
 ---
-slug: spx-algorithm构建多模态搜索服务的一些心得
+slug: spx-algorithm-building-multimodal-search-service-some-experience
 title: "SPX-Algorithm：构建多模态搜索服务的一些心得"
 authors: [techcamp]
 tags: [ai, architecture, engineering, go]

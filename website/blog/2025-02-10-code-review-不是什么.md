@@ -1,5 +1,5 @@
 ---
-slug: code-review-不是什么
+slug: code-review-what-it-is-not
 title: "Code Review 不是什么"
 authors: [techcamp]
 tags: [ai, architecture, career, engineering]
