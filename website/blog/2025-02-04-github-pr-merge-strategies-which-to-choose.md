@@ -1,5 +1,5 @@
 ---
-slug: /blog/2025/github-pr-merge-strategies-which-to-choose
+slug: github-pr-merge-strategies-which-to-choose
 title: GitHub PR 合并三选一：主分支该怎么选？
 authors:
 - techcamp

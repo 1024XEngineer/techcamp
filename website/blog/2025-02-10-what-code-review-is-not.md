@@ -1,5 +1,5 @@
 ---
-slug: /blog/2025/what-code-review-is-not
+slug: what-code-review-is-not
 title: Code Review 不是什么
 authors:
 - techcamp

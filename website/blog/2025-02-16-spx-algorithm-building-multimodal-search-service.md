@@ -1,5 +1,5 @@
 ---
-slug: /blog/2025/spx-algorithm-building-multimodal-search-service
+slug: spx-algorithm-building-multimodal-search-service
 title: SPX-Algorithm：构建多模态搜索服务的一些心得
 authors:
 - techcamp

@@ -1,5 +1,5 @@
 ---
-slug: /blog/2025/ai-reshaping-software-development-paradigm-shift
+slug: ai-reshaping-software-development-paradigm-shift
 title: AI 重构软件开发：从工具到规则的范式革命
 authors:
 - techcamp

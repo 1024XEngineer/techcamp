@@ -1,5 +1,5 @@
 ---
-slug: /blog/2025/engineering-practice-doing-small-things-well
+slug: engineering-practice-doing-small-things-well
 title: 工程实践分享 | 把小事做好
 authors:
 - techcamp

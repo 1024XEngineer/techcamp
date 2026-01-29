@@ -1,5 +1,5 @@
 ---
-slug: /blog/2025/code-is-not-core-decision-layers-in-xlink-project
+slug: code-is-not-core-decision-layers-in-xlink-project
 title: 代码不是核心：从 XLink 项目看产品开发的决策层次
 authors:
 - techcamp

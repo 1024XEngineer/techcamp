@@ -1,5 +1,5 @@
 ---
-slug: /blog/2025/understanding-xgo-compiler-through-type-system
+slug: understanding-xgo-compiler-through-type-system
 title: 从类型系统理解 XGo 编译器的实现
 authors:
 - techcamp

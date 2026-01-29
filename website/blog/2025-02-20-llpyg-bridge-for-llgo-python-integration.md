@@ -1,5 +1,5 @@
 ---
-slug: /blog/2025/llpyg-bridge-for-llgo-python-integration
+slug: llpyg-bridge-for-llgo-python-integration
 title: 'llpyg: LLGo 快速集成 Python 生态的桥梁'
 authors:
 - techcamp

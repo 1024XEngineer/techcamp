@@ -1,5 +1,5 @@
 ---
-slug: /blog/2025/xu-shiwei-on-engineer-development-in-ai-era
+slug: xu-shiwei-on-engineer-development-in-ai-era
 title: 许式伟聊 AI 时代下的工程师发展观
 authors:
 - techcamp

@@ -1,5 +1,5 @@
 ---
-slug: /blog/2025/why-you-should-join-1024-techcamp
+slug: why-you-should-join-1024-techcamp
 title: 同学，为什么我建议你关注 1024 实训营？
 authors:
 - techcamp

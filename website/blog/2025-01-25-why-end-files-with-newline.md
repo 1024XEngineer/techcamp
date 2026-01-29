@@ -1,5 +1,5 @@
 ---
-slug: /blog/2025/why-end-files-with-newline
+slug: why-end-files-with-newline
 title: 一行之差：为什么你的文件末尾应该留一个空行？
 authors:
 - techcamp

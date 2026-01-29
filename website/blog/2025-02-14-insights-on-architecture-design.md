@@ -1,5 +1,5 @@
 ---
-slug: /blog/2025/insights-on-architecture-design
+slug: insights-on-architecture-design
 title: 关于架构设计的几点认知体会
 authors:
 - techcamp

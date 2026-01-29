@@ -1,5 +1,5 @@
 ---
-slug: /blog/2025/what-makes-ai-application-complete
+slug: what-makes-ai-application-complete
 title: 如何才算完成一个AI应用
 authors:
 - techcamp

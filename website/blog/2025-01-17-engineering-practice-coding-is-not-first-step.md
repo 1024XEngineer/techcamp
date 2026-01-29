@@ -1,5 +1,5 @@
 ---
-slug: /blog/2025/engineering-practice-coding-is-not-first-step
+slug: engineering-practice-coding-is-not-first-step
 title: 工程实践分享｜“写代码”不是第一步！
 authors:
 - techcamp

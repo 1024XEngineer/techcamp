@@ -1,5 +1,5 @@
 ---
-slug: /blog/2025/xdraw-integrating-ai-into-products
+slug: xdraw-integrating-ai-into-products
 title: X绘图-我们是如何让AI更好的融入我们的产品的
 authors:
 - techcamp

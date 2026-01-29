@@ -1,5 +1,5 @@
 ---
-slug: /blog/2025/understanding-llgo-compiler-through-type-system
+slug: understanding-llgo-compiler-through-type-system
 title: 从类型系统理解 LLGo 编译器的实现
 authors:
 - techcamp

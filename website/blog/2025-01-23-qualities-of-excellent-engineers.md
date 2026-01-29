@@ -1,5 +1,5 @@
 ---
-slug: /blog/2025/qualities-of-excellent-engineers
+slug: qualities-of-excellent-engineers
 title: 我眼中的优秀工程师特质
 authors:
 - techcamp

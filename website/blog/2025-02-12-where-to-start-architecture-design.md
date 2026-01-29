@@ -1,5 +1,5 @@
 ---
-slug: /blog/2025/where-to-start-architecture-design
+slug: where-to-start-architecture-design
 title: 架构设计该从何入手
 authors:
 - techcamp
