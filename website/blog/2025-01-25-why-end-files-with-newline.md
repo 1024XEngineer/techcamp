@@ -1,10 +1,14 @@
 ---
-slug: 一行之差为什么你的文件末尾应该留一个空行
-title: "一行之差：为什么你的文件末尾应该留一个空行？"
-authors: [techcamp]
-tags: [ai, engineering, go]
+slug: /blog/2025/why-end-files-with-newline
+title: 一行之差：为什么你的文件末尾应该留一个空行？
+authors:
+- techcamp
+tags:
+- ai
+- engineering
+- go
 date: 2025-01-25
-description: "> ![github-no-nl-marker](/img/blog/一行之差为什么你的文件末尾应该留一个空行/github-no-nl-marker.png)"
+description: '> ![github-no-nl-marker](/img/blog/一行之差为什么你的文件末尾应该留一个空行/github-no-nl-marker.png)'
 ---
 
 > ![github-no-nl-marker](/img/blog/一行之差为什么你的文件末尾应该留一个空行/github-no-nl-marker.png)

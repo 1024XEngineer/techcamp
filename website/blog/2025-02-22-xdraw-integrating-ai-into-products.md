@@ -1,10 +1,14 @@
 ---
-slug: xhuitu-rang-ai-ronru-chanpin
-title: "X绘图-我们是如何让AI更好的融入我们的产品的"
-authors: [techcamp]
-tags: [ai, engineering, architecture]
+slug: /blog/2025/xdraw-integrating-ai-into-products
+title: X绘图-我们是如何让AI更好的融入我们的产品的
+authors:
+- techcamp
+tags:
+- ai
+- engineering
+- architecture
 date: 2025-02-22
-description: "从XBuilder绘图功能实践,探讨如何让AI真正融入产品,而不是简单引入。"
+description: 从XBuilder绘图功能实践,探讨如何让AI真正融入产品,而不是简单引入。
 ---
 
 **引言:**

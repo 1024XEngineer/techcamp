@@ -1,10 +1,15 @@
 ---
-slug: 我眼中的优秀工程师特质
-title: "我眼中的优秀工程师特质"
-authors: [techcamp]
-tags: [ai, architecture, career, engineering]
+slug: /blog/2025/qualities-of-excellent-engineers
+title: 我眼中的优秀工程师特质
+authors:
+- techcamp
+tags:
+- ai
+- architecture
+- career
+- engineering
 date: 2025-01-23
-description: "在工作中我们会遇到各种各样的工程师，优秀的工程师会让项目的进展更顺利、产品的质量更有保障，与他们的合作也会让人感到愉快。"
+description: 在工作中我们会遇到各种各样的工程师，优秀的工程师会让项目的进展更顺利、产品的质量更有保障，与他们的合作也会让人感到愉快。
 ---
 
 在工作中我们会遇到各种各样的工程师，优秀的工程师会让项目的进展更顺利、产品的质量更有保障，与他们的合作也会让人感到愉快。

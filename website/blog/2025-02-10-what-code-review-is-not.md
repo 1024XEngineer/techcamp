@@ -1,10 +1,16 @@
 ---
-slug: code-review-不是什么
-title: "Code Review 不是什么"
-authors: [techcamp]
-tags: [ai, architecture, career, engineering]
+slug: /blog/2025/what-code-review-is-not
+title: Code Review 不是什么
+authors:
+- techcamp
+tags:
+- ai
+- architecture
+- career
+- engineering
 date: 2025-02-10
-description: "在软件开发实践中，Code Review（代码审查）是常见的工程质量保障手段；在 1024 实训营中，我们的代码改动体现为一个个 GitHub Pull Request，我们也会要求每个 Pull Request 都要通过 Code Rev..."
+description: 在软件开发实践中，Code Review（代码审查）是常见的工程质量保障手段；在 1024 实训营中，我们的代码改动体现为一个个 GitHub
+  Pull Request，我们也会要求每个 Pull Request 都要通过 Code Rev...
 ---
 
 在软件开发实践中，Code Review（代码审查）是常见的工程质量保障手段；在 1024 实训营中，我们的代码改动体现为一个个 GitHub Pull Request，我们也会要求每个 Pull Request 都要通过 Code Review 后才能合入。

@@ -1,10 +1,15 @@
 ---
-slug: 许式伟聊-ai-时代下的工程师发展观
-title: "许式伟聊 AI 时代下的工程师发展观"
-authors: [techcamp]
-tags: [ai, architecture, career, engineering]
+slug: /blog/2025/xu-shiwei-on-engineer-development-in-ai-era
+title: 许式伟聊 AI 时代下的工程师发展观
+authors:
+- techcamp
+tags:
+- ai
+- architecture
+- career
+- engineering
 date: 2025-01-31
-description: "探讨AI编程工具爆发后,工程师的真正价值和未来发展方向。"
+description: 探讨AI编程工具爆发后,工程师的真正价值和未来发展方向。
 ---
 
 "AI 是否在消灭工程师？"

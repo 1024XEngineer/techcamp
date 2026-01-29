@@ -50,7 +50,10 @@ const config: Config = {
             type: ['rss', 'atom'],
             xslt: true,
           },
-          editUrl: 'https://github.com/qiniu/techcamp/edit/main/website/',
+          // Edit URL points to blog branch for direct deployment
+          editUrl: ({blogPath}: {blogPath: string}) => {
+            return `https://github.com/qiniu/techcamp/edit/blog/website/blog/${blogPath}`;
+          },
           blogTitle: '技术博客',
           blogDescription: '1024 实训营技术分享与实践经验',
           postsPerPage: 10,

@@ -1,10 +1,18 @@
 ---
-slug: 工程实践分享写代码不是第一步
-title: "工程实践分享｜“写代码”不是第一步！"
-authors: [techcamp]
-tags: [ai, architecture, compiler, engineering, go, llgo]
+slug: /blog/2025/engineering-practice-coding-is-not-first-step
+title: 工程实践分享｜“写代码”不是第一步！
+authors:
+- techcamp
+tags:
+- ai
+- architecture
+- compiler
+- engineering
+- go
+- llgo
 date: 2025-01-17
-description: "在 2025 年 4 月 7 日晚举办的第三期 1024 实训营结营成果展示会上，来自七牛云 Go+ 团队的技术专家、Goproxy.cn 开源项目作者、大学生创业者、连续创业者盛傲飞，作为 LLPkgStore 小组的带教导师，为同学们带..."
+description: 在 2025 年 4 月 7 日晚举办的第三期 1024 实训营结营成果展示会上，来自七牛云 Go+ 团队的技术专家、Goproxy.cn
+  开源项目作者、大学生创业者、连续创业者盛傲飞，作为 LLPkgStore 小组的带教导师，为同学们带...
 ---
 
 ## 引言

@@ -1,10 +1,18 @@
 ---
-slug: 关于架构设计的几点认知体会
-title: "关于架构设计的几点认知体会"
-authors: [techcamp]
-tags: [ai, architecture, career, compiler, engineering, go, xgo]
+slug: /blog/2025/insights-on-architecture-design
+title: 关于架构设计的几点认知体会
+authors:
+- techcamp
+tags:
+- ai
+- architecture
+- career
+- compiler
+- engineering
+- go
+- xgo
 date: 2025-02-14
-description: "一提到架构，很多人脑海中浮现的可能是高并发、高可用、微服务、分布式这些听起来就很技术的词汇。似乎只有那些处理海量数据、支撑千万用户的系统才需要做架构设计，而日常的业务开发，就是按需求写代码，哪里需要什么架构？"
+description: 一提到架构，很多人脑海中浮现的可能是高并发、高可用、微服务、分布式这些听起来就很技术的词汇。似乎只有那些处理海量数据、支撑千万用户的系统才需要做架构设计，而日常的业务开发，就是按需求写代码，哪里需要什么架构？
 ---
 
 架构设计，在很多人眼里是个高大上的话题。

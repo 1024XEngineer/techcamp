@@ -1,10 +1,15 @@
 ---
-slug: llgo-python-bianyiyuyunxingshijiaru
-title: "LLGo 中 Python 编译与运行时集成"
-authors: [techcamp]
-tags: [compiler, llgo, python, engineering]
+slug: /blog/2025/llgo-python-compilation-and-runtime-integration
+title: LLGo 中 Python 编译与运行时集成
+authors:
+- techcamp
+tags:
+- compiler
+- llgo
+- python
+- engineering
 date: 2025-02-24
-description: "深入剖析LLGo如何解决对Python环境的强依赖,实现用户不可见的Python环境构建方案。"
+description: 深入剖析LLGo如何解决对Python环境的强依赖,实现用户不可见的Python环境构建方案。
 ---
 
 ## 前言

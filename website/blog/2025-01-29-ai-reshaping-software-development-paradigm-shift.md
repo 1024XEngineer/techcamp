@@ -1,10 +1,15 @@
 ---
-slug: ai-重构软件开发从工具到规则的范式革命
-title: "AI 重构软件开发：从工具到规则的范式革命"
-authors: [techcamp]
-tags: [ai, architecture, career, engineering]
+slug: /blog/2025/ai-reshaping-software-development-paradigm-shift
+title: AI 重构软件开发：从工具到规则的范式革命
+authors:
+- techcamp
+tags:
+- ai
+- architecture
+- career
+- engineering
 date: 2025-01-29
-description: "在 AI 飞速发展的 2025 年，我们正处于一个全新的时代转折点上。在这背景下，软件开发领域也正面临着一场前所未有的变革。"
+description: 在 AI 飞速发展的 2025 年，我们正处于一个全新的时代转折点上。在这背景下，软件开发领域也正面临着一场前所未有的变革。
 ---
 
 在 AI 飞速发展的 2025 年，我们正处于一个全新的时代转折点上。在这背景下，软件开发领域也正面临着一场前所未有的变革。

@@ -1,10 +1,18 @@
 ---
-slug: 从类型系统理解-llgo-编译器的实现
-title: "从类型系统理解 LLGo 编译器的实现"
-authors: [techcamp]
-tags: [architecture, career, compiler, engineering, go, llgo, python]
+slug: /blog/2025/understanding-llgo-compiler-through-type-system
+title: 从类型系统理解 LLGo 编译器的实现
+authors:
+- techcamp
+tags:
+- architecture
+- career
+- compiler
+- engineering
+- go
+- llgo
+- python
 date: 2025-02-08
-description: "编程语言的类型系统可以分为编译时类型系统（程序编译阶段进行静态类型检查的机制）和运行时类型系统（程序执行期间动态管理类型信息的机制）。"
+description: 编程语言的类型系统可以分为编译时类型系统（程序编译阶段进行静态类型检查的机制）和运行时类型系统（程序执行期间动态管理类型信息的机制）。
 ---
 
 编程语言的类型系统可以分为编译时类型系统（程序编译阶段进行静态类型检查的机制）和运行时类型系统（程序执行期间动态管理类型信息的机制）。

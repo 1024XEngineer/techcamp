@@ -1,10 +1,17 @@
 ---
-slug: 代码不是核心从-xlink-项目看产品开发的决策层次
-title: "代码不是核心：从 XLink 项目看产品开发的决策层次"
-authors: [techcamp]
-tags: [ai, architecture, career, engineering, go]
+slug: /blog/2025/code-is-not-core-decision-layers-in-xlink-project
+title: 代码不是核心：从 XLink 项目看产品开发的决策层次
+authors:
+- techcamp
+tags:
+- ai
+- architecture
+- career
+- engineering
+- go
 date: 2025-02-18
-description: "在正在进行的 1024 实训营中，我们团队开发了 [XLink](https://github.com/goplus/builder/tree/trailhead_sharing) 项目，一个旨在让 [XBuilder](https://x..."
+description: 在正在进行的 1024 实训营中，我们团队开发了 [XLink](https://github.com/goplus/builder/tree/trailhead_sharing)
+  项目，一个旨在让 [XBuilder](https://x...
 ---
 
 在正在进行的 1024 实训营中，我们团队开发了 [XLink](https://github.com/goplus/builder/tree/trailhead_sharing) 项目，一个旨在让 [XBuilder](https://xbuilder.com/) 分享更丝滑的产品。通过这个项目的实践，我深刻意识到一个被很多程序员忽视的真相：**在整个产品开发流程中，代码的具体实现往往是最不重要的环节。**

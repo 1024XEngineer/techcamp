@@ -1,10 +1,19 @@
 ---
-slug: llpyg-llgo-快速集成-python-生态的桥梁
-title: "llpyg: LLGo 快速集成 Python 生态的桥梁"
-authors: [techcamp]
-tags: [ai, career, compiler, engineering, go, llgo, python]
+slug: /blog/2025/llpyg-bridge-for-llgo-python-integration
+title: 'llpyg: LLGo 快速集成 Python 生态的桥梁'
+authors:
+- techcamp
+tags:
+- ai
+- career
+- compiler
+- engineering
+- go
+- llgo
+- python
 date: 2025-02-20
-description: "[LLGo](https://github.com/goplus/llgo) 是一款基于 LLVM 的 Go 编译器，通过 LLVM 为 Go 语言整合了 C 和 Python 语言生态，让开发者可以更工程化地在 Go 中使用海量的 Pyt..."
+description: '[LLGo](https://github.com/goplus/llgo) 是一款基于 LLVM 的 Go 编译器，通过 LLVM 为
+  Go 语言整合了 C 和 Python 语言生态，让开发者可以更工程化地在 Go 中使用海量的 Pyt...'
 ---
 
 ## 前言

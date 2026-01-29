@@ -1,10 +1,20 @@
 ---
-slug: 许式伟发布-xgo-全景图ai-时代的全民编程语言
-title: "许式伟发布 XGo 全景图：AI 时代的全民编程语言"
-authors: [techcamp]
-tags: [ai, architecture, career, compiler, engineering, go, llgo, python, xgo]
+slug: /blog/2025/xu-shiwei-releases-xgo-roadmap-programming-for-all
+title: 许式伟发布 XGo 全景图：AI 时代的全民编程语言
+authors:
+- techcamp
+tags:
+- ai
+- architecture
+- career
+- compiler
+- engineering
+- go
+- llgo
+- python
+- xgo
 date: 2025-02-02
-description: "在第四届 1024 实训营开幕式上，七牛云创始人许式伟（https://github.com/xushiwei）分享了XGo的全景图。这次分享与以往有所不同，他不仅介绍了XGo的技术特性，更重要的是阐述了XGo背后的设计哲学和未来愿景。"
+description: 在第四届 1024 实训营开幕式上，七牛云创始人许式伟（https://github.com/xushiwei）分享了XGo的全景图。这次分享与以往有所不同，他不仅介绍了XGo的技术特性，更重要的是阐述了XGo背后的设计哲学和未来愿景。
 ---
 
 在第四届 1024 实训营开幕式上，七牛云创始人许式伟（https://github.com/xushiwei）分享了XGo的全景图。这次分享与以往有所不同，他不仅介绍了XGo的技术特性，更重要的是阐述了XGo背后的设计哲学和未来愿景。

@@ -1,10 +1,17 @@
 ---
-slug: 工程实践分享-把小事做好
-title: "工程实践分享 | 把小事做好"
-authors: [techcamp]
-tags: [ai, architecture, career, compiler, engineering, go]
+slug: /blog/2025/engineering-practice-doing-small-things-well
+title: 工程实践分享 | 把小事做好
+authors:
+- techcamp
+tags:
+- ai
+- architecture
+- career
+- compiler
+- engineering
+- go
 date: 2025-01-15
-description: "在日前举办的第三期 1024 实训营结营成果展示会上，导师杨寒星基于同学们的展示，分享了他的一些看法，也阐述了为什么做好小事对开发者的个人成长具有积极的意义。"
+description: 在日前举办的第三期 1024 实训营结营成果展示会上，导师杨寒星基于同学们的展示，分享了他的一些看法，也阐述了为什么做好小事对开发者的个人成长具有积极的意义。
 ---
 
 在工程实践中，做好小事非常重要。

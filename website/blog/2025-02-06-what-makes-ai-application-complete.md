@@ -1,10 +1,14 @@
 ---
-slug: ru-he-cai-suan-wan-cheng-yi-ge-ai-ying-yong
-title: "如何才算完成一个AI应用"
-authors: [techcamp]
-tags: [ai, engineering, architecture]
+slug: /blog/2025/what-makes-ai-application-complete
+title: 如何才算完成一个AI应用
+authors:
+- techcamp
+tags:
+- ai
+- engineering
+- architecture
 date: 2025-02-06
-description: "调通了大模型接口≠完成了AI应用。本文探讨AI应用的本质和完成标准。"
+description: 调通了大模型接口≠完成了AI应用。本文探讨AI应用的本质和完成标准。
 ---
 
 ## 引言：现象与误区

@@ -1,10 +1,19 @@
 ---
-slug: 同学为什么我建议你关注-1024-实训营
-title: "同学，为什么我建议你关注 1024 实训营？"
-authors: [techcamp]
-tags: [ai, architecture, career, compiler, engineering, go, llgo, xgo]
+slug: /blog/2025/why-you-should-join-1024-techcamp
+title: 同学，为什么我建议你关注 1024 实训营？
+authors:
+- techcamp
+tags:
+- ai
+- architecture
+- career
+- compiler
+- engineering
+- go
+- llgo
+- xgo
 date: 2025-01-19
-description: "2023 年底，我幸运地通过 1024 创作节获得了参加第一届 1024 实训营的机会,这次经历彻底改变了我对技术学习和职业发展的认知。"
+description: 2023 年底，我幸运地通过 1024 创作节获得了参加第一届 1024 实训营的机会,这次经历彻底改变了我对技术学习和职业发展的认知。
 ---
 
 2023 年底，我幸运地通过 1024 创作节获得了参加第一届 1024 实训营的机会,这次经历彻底改变了我对技术学习和职业发展的认知。

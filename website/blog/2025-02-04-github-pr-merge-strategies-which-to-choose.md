@@ -1,10 +1,14 @@
 ---
-slug: github-pr-合并三选一主分支该怎么选
-title: "GitHub PR 合并三选一：主分支该怎么选？"
-authors: [techcamp]
-tags: [ai, architecture, engineering]
+slug: /blog/2025/github-pr-merge-strategies-which-to-choose
+title: GitHub PR 合并三选一：主分支该怎么选？
+authors:
+- techcamp
+tags:
+- ai
+- architecture
+- engineering
 date: 2025-02-04
-description: "> ![GitHub PR merge menu](/img/blog/github-pr-合并三选一主分支该怎么选/github-pr-merge-menu.png)"
+description: '> ![GitHub PR merge menu](/img/blog/github-pr-合并三选一主分支该怎么选/github-pr-merge-menu.png)'
 ---
 
 > ![GitHub PR merge menu](/img/blog/github-pr-合并三选一主分支该怎么选/github-pr-merge-menu.png)
