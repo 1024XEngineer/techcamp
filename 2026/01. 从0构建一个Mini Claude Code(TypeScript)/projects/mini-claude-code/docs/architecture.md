@@ -131,9 +131,9 @@ projects/mini-claude-code/
 │   └── web-fetch.ts
 │
 ├── utils/
-│   ├── token.ts                ← token 数量近似估算
 │   ├── truncate.ts             ← 工具输出截断 + system_hint 生成
-│   └── safety.ts               ← 危险命令正则检测
+│   ├── safety.ts               ← 危险命令正则检测
+│   └── confirm.ts              ← 危险命令用户确认交互
 │
 ├── SYSTEM_PROMPT.md            ← 静态系统提示词
 ├── package.json

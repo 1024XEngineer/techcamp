@@ -3,7 +3,7 @@
 ## 文件
 
 ```txt
-projects
+agent-loop/
 ├── bun.lock
 ├── tools.ts
 ├── prompt.md
@@ -15,7 +15,7 @@ projects
 ## 安装
 
 ```bash
-cd projects
+cd projects/agent-loop
 bun install
 ```
 

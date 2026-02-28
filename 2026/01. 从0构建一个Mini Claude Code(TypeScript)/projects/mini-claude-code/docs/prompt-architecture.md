@@ -7,30 +7,27 @@
 | 内容类型 | 来源 | 特点 |
 |---------|------|------|
 | 基础行为指令 | `SYSTEM_PROMPT.md` 静态文件 | 固定，不变 |
-| 工具描述 | 工具注册表动态生成 | 随工具增减变化 |
 | 运行时状态 | 执行过程中动态注入 | 每次请求可能不同 |
 
 这就需要一套**组装逻辑**，而不是一个静态字符串。
 
 ## 提示词结构
 
-最终发送给 LLM 的系统提示词由三个段落拼接：
+最终发送给 LLM 的系统提示词由两个段落拼接：
 
 ```
 ┌─────────────────────────────────────────────────────┐
 │  Segment 1: 核心指令（静态）                          │
 │  来源：SYSTEM_PROMPT.md                              │
-│  内容：角色定义、行为准则、输出格式要求               │
+│  内容：角色定义、行为准则、工具使用建议、输出格式要求  │
 ├─────────────────────────────────────────────────────┤
-│  Segment 2: 工具能力（动态）                          │
-│  来源：tools/index.ts 自动生成                       │
-│  内容：每个工具的用途和使用建议                       │
-├─────────────────────────────────────────────────────┤
-│  Segment 3: 运行时状态（动态，可选）                  │
+│  Segment 2: 运行时状态（动态，可选）                  │
 │  来源：执行过程中注入                                 │
 │  内容：上下文压缩摘要、异常提示、特殊约束             │
 └─────────────────────────────────────────────────────┘
 ```
+
+> 注：工具参数 schema 由 Vercel AI SDK 自动注入到 function calling，不需要在系统提示词中重复描述。工具的**使用策略**（何时用、注意事项）已包含在 `SYSTEM_PROMPT.md` 的「工具使用建议」部分。
 
 ## SYSTEM_PROMPT.md（静态段）
 
@@ -66,38 +63,19 @@
 // agent/prompt.ts
 
 export async function assembleSystemPrompt(
-  runtimeHints?: string[]
+  runtimeHints: string[] = []
 ): Promise<string> {
   const segments: string[] = []
 
   // Segment 1: 静态核心指令
-  const staticPrompt = await Bun.file('SYSTEM_PROMPT.md').text()
-  segments.push(staticPrompt)
+  segments.push(await Bun.file(PROMPT_FILE).text())
 
-  // Segment 2: 工具能力描述
-  // 注意：Vercel AI SDK 会自动将工具 schema 注入到 function calling，
-  // 这里的工具描述是面向"使用建议"层面的补充说明，不是参数 schema
-  const toolsDescription = buildToolsDescription()
-  if (toolsDescription) {
-    segments.push(`\n---\n# 可用工具补充说明\n\n${toolsDescription}`)
+  // Segment 2: 运行时状态（如有）
+  if (runtimeHints.length > 0) {
+    segments.push("---\n# 运行时状态\n\n" + runtimeHints.join("\n\n"))
   }
 
-  // Segment 3: 运行时状态（如有）
-  if (runtimeHints && runtimeHints.length > 0) {
-    segments.push(`\n---\n# 运行时状态\n\n${runtimeHints.join('\n\n')}`)
-  }
-
-  return segments.join('\n')
-}
-
-function buildToolsDescription(): string {
-  return `
-- **read_file**：读取文件内容。超长文件会被截断，使用 offset/limit 分段读取。
-- **write_file**：写入完整文件内容，适合创建新文件或完整重写。
-- **edit_file**：替换文件中的特定字符串，old_string 必须在文件中唯一存在。
-- **bash**：执行 Shell 命令。危险命令会暂停并等待用户确认。
-- **web_fetch**：抓取网页内容并转换为 Markdown 格式。
-`.trim()
+  return segments.join("\n\n")
 }
 ```
 
@@ -109,12 +87,10 @@ function buildToolsDescription(): string {
 
 ```typescript
 // 压缩完成后，将摘要作为运行时 hint 注入
-const hint = `[上下文摘要 - 之前会话的执行记录]
-${summary}
+const hint = buildCompressionHint(summary)
+runtimeHints = [hint]
 
-注意：以上是对之前执行历史的压缩摘要，你现在处于会话重启后的状态，请基于上述摘要继续完成任务。`
-
-const newSystem = await assembleSystemPrompt([hint])
+// 下次调用 agentLoop 时，hint 会作为 Segment 2 注入系统提示词
 ```
 
 ### 工具异常状态注入
@@ -134,7 +110,7 @@ const hint = `<system_hint type="tool_degraded" tool="web_fetch">
 | 场景 | 位置 | 原因 |
 |------|------|------|
 | 工具输出超限 | 工具返回值中（作为 tool_result） | 直接跟随工具调用，模型立刻知道结果被截断 |
-| 工具不可用、全局状态 | 系统提示词 Segment 3 | 影响全局行为，放在系统提示词层面更合适 |
+| 工具不可用、全局状态 | 系统提示词 Segment 2 | 影响全局行为，放在系统提示词层面更合适 |
 
 ## 提示词工程注意事项
 

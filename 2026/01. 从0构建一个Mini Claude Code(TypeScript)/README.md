@@ -64,7 +64,7 @@ bun install
 bun src/index.ts
 ```
 
-> 需要配置 `QINIU_API_KEY` 等对应的环境变量，详见具体项目内容。
+> 运行前需配置对应环境变量：`agent-loop` 需要 `DEEPSEEK_API_KEY`，`mini-claude-code` 需要 `QINIU_API_KEY`，详见各子项目文档。
 
 ## Mini Claude Code 工具集
 
