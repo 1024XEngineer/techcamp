@@ -24,3 +24,8 @@ go.work.sum
 # env file
 .env
 .qodo
+
+node_modules/
+dist/
+.DS_Store
+
