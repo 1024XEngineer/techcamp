@@ -26,6 +26,12 @@
 
 ## 📚 内容目录
 
+### 🆕 2026 年技术课程
+
+| 序号 | 主题                                                 | 链接                                                                                 |
+| ---- | ---------------------------------------------------- | ------------------------------------------------------------------------------------ |
+| 01   | 从 0 构建一个 Mini Claude Code（TypeScript）         | [📖 阅读](2026/01.%20从0构建一个Mini%20Claude%20Code%28TypeScript%29/README.md)      |
+
 ### 🆕 2025 年技术分享系列
 
 | 序号 | 主题                                         | 链接                                       |
@@ -77,6 +83,7 @@
 - **任务发布规范**: [如何发布任务](communitee/01.how-to-release-tasks.md)
 - **产品方向指导**: [定产品方向指导规范](communitee/02.product-direction-template.md)
 - **日报写作规范**: [如何写高质量日报](communitee/03.how-to-write-quality-daily-report.md)
+- **运营管理实践**: [1024 实训营运营管理实践](communitee/04.techcamp-operational-practice.md)
 
 ### 💡 提案与建议
 
